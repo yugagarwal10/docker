@@ -9,7 +9,7 @@ services:
       - "3000:3000"
     environment:
       - VITE_API_URL=${VITE_API_URL}
-    volume:
+    volumes:
       - ./Backend:/app
 
   frontend:
