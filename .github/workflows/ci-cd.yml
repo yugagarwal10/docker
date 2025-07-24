@@ -24,7 +24,7 @@ jobs:
 
       - name: Install frontend dependency
         run: |
-          cd frontend
+          cd test
           npm install
 
       - name:  Set up Docker Buildx
